@@ -14,7 +14,7 @@ About Me: Learn about Oleg's background, skills, and career aspirations.
 Skills: Discover Oleg's top skills and technologies.
 Projects: Explore Oleg's team projects with descriptions and links to view them.
 Setup Instructions
-Clone the repository: git clone https://github.com/olegklyufinskyy/your-repo.git
+Clone the repository: git clone https://github.com/olegklyufinskyy/portfolio-resume-2.git
 Open index.html in your web browser to view the website.
 Credits
 Design inspired by Figma.
