@@ -1,7 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   const navLinks = document.querySelectorAll(".tabs-head-buttons a");
-  const githubLink = document.querySelector(".navigation-site-item.github");
-  const linkedinLink = document.querySelector(".navigation-site-item.linkedin");
+  const githubLink = document.querySelector(
+    ".offsite-link a[href='https://github.com/olegklyufinskyy']"
+  );
+  const linkedinLink = document.querySelector(
+    ".offsite-link a[href='https://www.linkedin.com/in/oleg-klyufinskyy/']"
+  );
 
   if (githubLink) {
     githubLink.addEventListener("click", function (event) {
@@ -28,8 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const offsetTop =
           targetSection.getBoundingClientRect().top + window.pageYOffset;
         window.scrollTo({
-          top: offsetTop - 50, 
-          behavior: "smooth", 
+          top: offsetTop - 50,
+          behavior: "smooth",
         });
       }
     });
